@@ -25,7 +25,7 @@ describe('Funcionalidade Página de Produtos', () => {
     // Assertion: Validar que chegámos à página de produtos
     //cy.url().should("eq", "https://www.saucedemo.com/v1/inventory.html")
   })
-/*
+
   it('Botão ADD TO CART', () => {
 
     // Clicar no botão ADD TO CART
@@ -48,7 +48,7 @@ describe('Funcionalidade Página de Produtos', () => {
     .and('contain','4');
     
   })
-*/
+
   it('Filtro Price Low to High', () => {
     // Assertion: Validar que chegámos à página de produtos (Equal)
     cy.url().should("include", "inventory")
